@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Place Holder Title</title>
+<style>
+body {
+background-color:Black;
+background-image:url("Place_Holder_Graphics.png");
+padding:250px 0;
+}
+
+.center {
+margin:auto;
+width:260px;
+border:1px solid #00ff00;
+padding:25px;
+background-color:rgb(0, 0, 0, 0.75);
+text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="center">
+<form name="loginForm" action="action_page.php" method="post" autocomplete="off" required>
+
+<input type="Password" size=25 name="pwd" placeholder="Placeholder">
+
+</form>
+</div>
+
+<script language="javascript">
+function check(form)
+{
+
+if(form.pwd.value == "Placeholder")
+{
+	return true;
+}
+else
+{
+	alert("Error Password")
+	return false;
+}
+}
+</script>
+
+</body>
+
+</html>
